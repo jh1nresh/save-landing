@@ -9,6 +9,7 @@ import {
   MapPin,
   MessageCircle,
 } from 'lucide-react'
+import TriverraHero from './components/TriverraHero'
 
 const TESTFLIGHT_URL =
   import.meta.env.VITE_TESTFLIGHT_URL ||
@@ -536,6 +537,7 @@ function App() {
     <>
       <Navbar />
       <main>
+        <TriverraHero />
         <HeroSection />
         <HowItWorksSection />
         <PlaceMemorySection />
